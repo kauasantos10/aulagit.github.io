@@ -1,13 +1,22 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Primeira Página HTML</title>
-</head>
+<html>
 <body>
-    <h1>Bem-vindo à minha página HTML!</h1>
-    <p>Essa é a minha primeira página HTML hospedada no GitHub Pages.</p>
-    <p>Eu aprendi a criar uma página HTML simples e agora estou hospedando ela na web!</p>
+
+<h2>The select Element</h2>
+
+<p>The select element defines a drop-down list:</p>
+
+<form action="index.html">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <input type="submit">
+</form>
+
 </body>
 </html>
